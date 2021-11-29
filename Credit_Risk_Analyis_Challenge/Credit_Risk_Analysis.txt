@@ -69,6 +69,5 @@ Two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsem
 * Recall Score: 0.67 High Risk/ 0.91 Low Risk
 
 ## Summary
--Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
--There is a recommendation on which model to use, or there is no recommendation with a justification
- 
+Balanced accuracy uses sensitivity and specificity to evaluate the performance of a classifier. The balanced accuracy is placed on a scale of 0 to 1. The closer to 1 the balanced accurracy is, the better the prediction of the model. For the credit card risk data set, all of the classifiers tested showed similar recall scores, and all had precision scores as low for high-risk loans and high for low-risk loans. The difference in these machine learning models occurs in the balanced accuracy score. The Easy Ensemble Classifier outperformed all off the other models significantly with a score of 0.92. Seeing as none of the other machine learning models had balanced accuracy scores above 0.78, the Easy Ensemble Classifier is the best choice when analyzing and predicting credit card risk. 
+
